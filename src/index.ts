@@ -1,2 +1,2 @@
-export { default as Page } from './components/Page'
-import './index.css'
+export { default as Page } from "./components/Page";
+import "./index.css";
