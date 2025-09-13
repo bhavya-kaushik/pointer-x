@@ -25,7 +25,8 @@
     "test": "jest --watchAll=false --verbose",
     "prepare": "husky",
     "lint": "eslint ./src --ext .ts,.tsx",
-    "lint:fix": "eslint ./src --fix"
+    "lint:fix": "eslint ./src --fix",
+    "release": "standard-version"
   },
   "jest": {
     "testEnvironment": "jsdom"
@@ -46,6 +47,8 @@
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.35.0",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
@@ -67,6 +70,7 @@
     "rollup": "^4.50.1",
     "rollup-plugin-dts": "^6.2.3",
     "rollup-plugin-postcss": "^4.0.2",
+    "standard-version": "^9.5.0",
     "tailwindcss": "^4.1.13",
     "tslib": "^2.8.1",
     "typescript": "^5.9.2",
